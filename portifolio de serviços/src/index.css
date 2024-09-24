@@ -1,0 +1,27 @@
+body {
+  background: none; /* Remove qualquer imagem de fundo */
+
+  /* opcoes de cores*/
+ /* background: linear-gradient(135deg, rgba(135, 206, 250, 0.75), rgba(255, 255, 255, 0.54)); */
+
+ font-family: 'Times New Roman', Times, serif;
+
+ 
+  
+  /*  background: linear-gradient(135deg, rgba(45, 143, 102, 0.75), rgba(57, 189, 112, 0.54)); */
+  
+
+
+  /* Comentário de uma segunda opção de gradiente original, mais escura */
+ /* background: linear-gradient(135deg, rgba(47, 102, 96, 0.87), rgb(17, 65, 57)); */
+
+ 
+ background-color: #d1f2d17c; /* Verde claro suave */
+  
+  margin: 0; /* Remove margens padrão */
+  padding: 0; /* Remove paddings padrão */
+  height: 100vh; /* Garante que o body ocupe a altura total da janela */
+  box-sizing: border-box; /* Inclui padding e borda no cálculo da largura/altura */
+}
+
+

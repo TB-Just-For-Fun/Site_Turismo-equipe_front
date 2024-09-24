@@ -1,0 +1,36 @@
+#grupo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box; /* Inclui padding e border no cálculo da largura */
+    position: relative; /* Mantém o #grupo no fluxo do layout */
+}
+    
+#grupo span {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo dentro do span */
+    align-items: center;
+    width: 300px; /* Define a largura do span */
+    height: 150px; /* Define a altura do span */
+    color: white; /* Cor do texto */
+    font-size: 23px; /* Tamanho do texto */
+    border-radius: 30px; /* Borda arredondada */
+    box-shadow: 12px 10px 8px rgba(25, 194, 138, 0.479); /* Sombra */
+    font-weight: bold;
+    transition: transform 0.5s ease, background-color 0.5s ease; /* Suaviza as transições */
+    background: linear-gradient(135deg, rgba(5, 145, 131, 0.432), rgba(5, 88, 74, 0.575)); /*Efeito de cor gradiente e transparente*/
+}
+
+#grupo span:hover {
+    transform: scale(1.2); /* Aumenta o span ao passar o mouse */
+    background-color: #82f0b954; /* Muda a cor de fundo no hover */
+    cursor: pointer; /* Mostra o cursor de ponteiro no hover */
+}
+
+span a {
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: white; /* Cor do texto dos links */
+}

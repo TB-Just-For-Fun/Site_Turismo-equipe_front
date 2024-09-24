@@ -1,0 +1,81 @@
+/* Estilo para o header */
+header {
+    /* background-size: cover; /* Faz com que a imagem cubra todo o fundo */
+    color: #fff; /* Cor do texto no cabeçalho */
+    padding: 5px ; /* Espaçamento superior e inferior */
+   /* background: linear-gradient(135deg, #4db6ac, #004d40); Outras cores*/ 
+    /*background: linear-gradient(135deg, #4db6ac, #004d40); Outras cores*/
+    background: linear-gradient(135deg, rgba(5, 145, 131, 0.89), rgba(5, 88, 74, 0.801)); /*Efeito de cor gradiente e transparente*/
+    text-align: center; 
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+ }
+
+
+ /* Estilo para o footer */
+footer {
+     margin-top: 193px; /* Espaçamento superior para garantir separação do header */
+
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+
+/*----------------------------------------------------*/
+ /* Define o estilo do container do rodapé */
+.footer-mae {
+    border-radius: 10px;
+    display: flex; /* Coloca as divs organizadas, de modo uma frente da outra */
+    background: linear-gradient(135deg, rgba(25, 80, 74, 0.87), rgb(11, 51, 44)); /*Efeito de cor gradiente e transparente*/
+    flex-wrap: wrap; /* Permite que as seções se ajustem em telas menores */
+}
+
+/* Estilo das seções do rodapé */
+.footer-todo{
+    flex: 1; /* Faz com que cada seção tenha o mesmo tamanho */
+    margin: 1px;
+}
+
+/* Estilo dos títulos de cada seção (CONTEÚDO, FERRAMENTAS, etc.) */
+.footer-todo h3 {
+    margin-bottom: 15px;
+    font-size: 17px;
+    color: #ccc;
+    display: flex; /* Faz os itens ficarem em linha */
+    
+}
+
+/* Remove as bolinhas da lista e define espaçamento */
+.footer-todo ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-todo ul li {
+    margin-bottom: 7px;/* da um espaçamento entre os conteudos */
+}
+
+/* Estilo dos links do rodapé */
+.footer-todo ul li a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: white; /* Cor branca */
+    font-size: 14px;
+    display: flex; /* Faz os itens ficarem em linha */
+}
+
+.footer-todo ul li a:hover {
+    color: #00cca0; /* Cor quando o link é hover */
+}
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+

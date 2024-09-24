@@ -1,0 +1,34 @@
+  
+
+  /* Estilo para a tabela dentro da seção de informações */
+  .detalhamento-info table {
+    width: 100%; /* Faz com que a tabela ocupe 100% da largura disponível */
+    border-collapse: collapse; /* Remove os espaços entre as bordas das células da tabela */
+  }
+  
+  /* Estilo para as células da tabela (tanto cabeçalho quanto conteúdo) */
+  .detalhamento-info th, .detalhamento-info td {
+    border: 2px solid #66a776e3; /* Adiciona uma borda (cor) em torno de cada célula */
+    padding: 8px; /* Adiciona espaçamento interno nas células */
+
+  }
+  
+
+  /* Estilo para os botões de ação */
+  button {
+    padding: 10px 20px; /* Adiciona espaçamento interno nos botões */
+    background-color: #007bff; /* Define a cor de fundo do botão (azul) */
+    color: white; /* Define a cor do texto como branco */
+    border: none; /* Remove qualquer borda ao redor do botão */
+    cursor: pointer; /* Muda o cursor para "pointer" ao passar o mouse sobre o botão */
+    border-radius: 8px;
+  }
+  
+  /* Estilo do botão quando o mouse passa sobre ele (hover) */
+  button:hover {
+    background-color: #0056b3; /* Muda a cor de fundo para um azul mais escuro ao passar o mouse */
+  }
+  
+  
+  
+  

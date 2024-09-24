@@ -1,0 +1,48 @@
+/* Estilos principais da galeria */
+.secao-provincia {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 20px 0;
+    width: 80%;
+}
+
+/* Contêiner para imagem e vídeo lado a lado */
+.conteudo-provincia {
+    display: flex; /* Alinha os itens em linha */
+    justify-content: space-between; /* Espaçamento entre os itens */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+}
+
+/* Estilo para os contêineres de fotos */
+.foto-container {
+    text-align: center; /* Centraliza o texto da descrição */
+    flex: 1; /* Faz a imagem ocupar o espaço disponível */
+}
+
+/* Estilo para as imagens */
+.imagem-galeria {
+    width: 50%; /* Ajusta a largura das imagens */
+    height: auto;
+}
+
+/* Estilo para as descrições das imagens */
+.descricao-galeria {
+    margin-top: 10px; /* Espaçamento acima da descrição */
+    font-size: 0.9em; /* Tamanho da fonte para a descrição */
+    color: #555; /* Cor da descrição */
+}
+
+/* Estilo para os vídeos */
+.video-container {
+    flex: 1; /* Faz o vídeo ocupar o espaço disponível */
+    margin-left: 15px; /* Espaçamento à esquerda do vídeo */
+}
+
+/* Estilo para os vídeos */
+.video-galeria {
+    width: 30%;
+    height: auto;
+}
+
+
+  
